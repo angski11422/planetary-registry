@@ -1217,6 +1217,13 @@
       "climate": "Dry",
       "terrain": "mountains",
       "population": "100000000"
+    },
+    {
+      "id": "3503d7b6-15e9-4903-aea2-0f81911027a2",
+      "name": "Earth",
+      "climate": "Dry",
+      "terrain": "mountains",
+      "population": "100000000"
     }
   ]
 }

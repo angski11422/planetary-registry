@@ -19,7 +19,13 @@ function Registry() {
     }
 
     const planetsToDisplay = planets.filter((planet) => {
-        return planet.name.toLowerCase().includes(search.toLowerCase())
+        return (
+            planet.name.toLowerCase().includes(search.toLowerCase())
+            || planet.climate.toLowerCase().includes(search.toLowerCase())
+            || planet.terrain.toLowerCase().includes(search.toLowerCase())
+            || planet.population.toLowerCase().includes(search.toLowerCase())
+            )
+
     })
     
     return(
