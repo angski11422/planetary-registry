@@ -1210,6 +1210,13 @@
       "climate": "cold",
       "terrain": "rocky",
       "population": "1"
+    },
+    {
+      "id": "e0967a21-53e4-4956-a7db-a0d941190ea8",
+      "name": "Earth",
+      "climate": "Dry",
+      "terrain": "mountains",
+      "population": "100000000"
     }
   ]
 }
